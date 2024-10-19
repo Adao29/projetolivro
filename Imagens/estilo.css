@@ -1,0 +1,89 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 90vh;
+}
+
+#container {
+    border-style: solid;
+    border-width: medium;
+    border-radius: 10px;
+    background-color: #a39c9c4f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    height: 90vh;
+    flex-wrap: wrap;
+}
+
+#imagens {
+    border-style: solid;
+    border-width: medium;
+    border-radius: 10px;
+    background-color: #b843434f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70vw;
+    height: 50vh;
+}
+
+#texto {
+    border-style: solid;
+    border-width: medium;
+    border-radius: 10px;
+    background-color: #232cac4f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60vw;
+    height: 20vh;
+}
+
+#botaoavancar {
+    border-style: solid;
+    border-width: medium;
+    border-radius: 10px;
+    background-color: #1fb6334f;
+    width: 60px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#botaovoltar {
+    border-style: solid;
+    border-width: medium;
+    border-radius: 10px;
+    background-color: #1fb6334f;
+    width: 60px;
+    height: 35px;
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#botoes {
+    background-color: #a39c9c4f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70vw;
+    height: 15vh;
+}
+
+button {
+    border: 0;
+    background-color: transparent;
+}
+
+#imagens img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
